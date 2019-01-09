@@ -23,6 +23,8 @@ public class bassPerson {
         age = 21;
         cellNumber = "(360)-880-5770";
     }
+    
+    //PT -- JavaDoc comments for all functions. -2
 
     // Constructor
     bassPerson(String name, int age, String cellNumber) {
@@ -37,6 +39,7 @@ public class bassPerson {
     public String getCellNumber() {return cellNumber;}
 
     // Set Functions...
+    //PT -- make sure you're getting valid age and CellNumber values. -2
     public void setName(String inputName) {name = inputName;}
     public void setAge(int inputAge) {age = inputAge;}
     public void setCellNumber(String inputCellNumber) {cellNumber = inputCellNumber;}
@@ -46,6 +49,6 @@ public class bassPerson {
         return String.format("Person: " + name + "\nAge: " + age + "\nCell Number: " + cellNumber);
     }
 
-    public String toDisplay() {return "0";}
+    public String toDisplay() {return "0";} //PT -- ???
 
 }
