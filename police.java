@@ -7,9 +7,12 @@
 enum policeRole {
     Patrol, Sargent, Captain, Chief};
 
+//PT -- JavaDoc comments for all classes and functions
 public class police extends bassPerson implements employee {
     
     private policeRole role; 
+    //PT -- not all officers make the same amount of money. You need set function.
+    //  -2
     private int policePay = 540; // monthly pay
     private int ID; 
     private int bank = 0; // Balance in the bank
