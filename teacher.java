@@ -10,6 +10,7 @@ public class teacher extends bassPerson implements employee {
 
     private int gradeLevel; //grade level
     private String degree;
+    //PT -- again, you need set function for this.
     private int teacherPay = 450; // monthly pay
     private int ID; 
     private int bank = 0; // Balance in the bank
