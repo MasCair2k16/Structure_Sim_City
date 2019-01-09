@@ -4,6 +4,9 @@
  * @since 1-8-18
  */
 
+//PT -- javadoc. -2
+
+//PT -- in this case, you want "Base", not "Bass"
 public abstract class buildingBass {
     
     protected String name;
@@ -35,9 +38,11 @@ public abstract class buildingBass {
     public void setRooms(int inputRooms) {rooms = inputRooms;}
 
     // Report the buildings stats
+    //PT -- Buidling?
     public String displayBuidling() { return String.format("Building name: " + name + "\naddress: " + address + "\nRooms: "+ rooms);}
 
     // Adding and removing vector functions.
+    //PT -- return boolean from these, in case they fail (e.g. no room in building, person doesn't exist to remove)
     public abstract void addPersonToVector(bassPerson inputCityHallOccupant);
     public abstract void removePersonFromVector(bassPerson inputCityHallOccupant);
 
