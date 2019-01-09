@@ -8,6 +8,7 @@
 public class cityTest {
     public static void main(String[] args) {
 
+        //PT -- why not have City hold these objects for you?
         // a list of buildings
     buildingBass [] cityBuildings = { 
         new cityHall("Dudesville City Hall", "911 Emergency Stop rd", 12), new school("Dudesville Public High School", "123 Eyes On Me blvd", 23)};
