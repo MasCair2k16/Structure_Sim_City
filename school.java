@@ -7,6 +7,7 @@
 
 import java.util.*;
 
+//PT -- javadoc.
 public class school extends buildingBass {
 
     // Default Constructor...
