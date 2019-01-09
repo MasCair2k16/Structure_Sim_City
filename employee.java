@@ -9,6 +9,7 @@ import java.io.*;
 
 interface employee 
 {
+	//PT -- Need JavaDoc comments. -2
 	// Method to give pay to worker. A will be the paycheck and C is the bank
 	void givePay();
 	  
