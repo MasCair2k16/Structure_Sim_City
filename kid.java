@@ -7,6 +7,8 @@
 public class kid extends bassPerson {
     private String favCandy;
     private int numOfCavity;
+    
+    //PT -- JavaDoc for all functions. -2
 
     // Default Constructor
     kid () {
@@ -34,6 +36,7 @@ public class kid extends bassPerson {
     public void setCandy(String inputFavCandy) {favCandy = inputFavCandy;}
     public void setCavity(int inputNumOfCavity) {numOfCavity = inputNumOfCavity;}
 
+    //PT -- toString would be better here.
     // Summarizes kid info
     public String toDisplay() { return String.format("Kid name: " + name + "\nAge: " + age + "\nCell Number: "+ cellNumber + "\nFavorite Candy: " + favCandy + "\nNumer of Cavities: " + numOfCavity);}
 }
