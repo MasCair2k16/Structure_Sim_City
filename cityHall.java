@@ -7,6 +7,7 @@
 
 import java.util.*;
 
+//PT -- Javadoc. -2
 public class cityHall extends buildingBass {
 
     // Defualt Constructor
@@ -33,12 +34,14 @@ public class cityHall extends buildingBass {
 
     // Removes a hall occupant // defined in buildingBass
     public void removePersonFromVector(bassPerson inputCityHallOccupant) {
+        //PT -- what if the person isn't there?
         cityHallOccupants.remove(inputCityHallOccupant);
         cityHallOccupants.trimToSize();
     }
 
     // Display the occupants in the building
     public void displayOccupants() {
+        //PT -- better to return the string, and let the UI display it.
         for(int i = 0; i < cityHallOccupants.size(); i++) {
             System.out.println("\nCity Hall Occupants: " + cityHallOccupants.elementAt(i).getName());
         }
