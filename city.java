@@ -7,6 +7,7 @@
 
 import java.util.*;
 
+//PT -- javadoc. -2
 public class city {
     
     private String cityName;
